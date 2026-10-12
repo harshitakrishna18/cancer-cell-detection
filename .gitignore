@@ -1,0 +1,21 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Models & Weights (exceeds GitHub file limits)
+models/*.pt
+models/*.pth
+models/*.bin
+
+# Data & Temp files
+data/
+temp_uploaded.jpg
+
+# OS Files
+.DS_Store
